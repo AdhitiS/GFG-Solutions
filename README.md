@@ -1,2 +1,2 @@
 # GFG-Solutions
-These are the gfg solutions to a few questions on the medium
+These are the solutions to a few questions on the medium
