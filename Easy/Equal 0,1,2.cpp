@@ -1,10 +1,9 @@
-#include <vector>
-#include <unordered_map>
-#include <bits/stdc++.h>
+// #include <vector>
+// #include <unordered_map>
+// #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	//code
 	int T;
 	cin>>T;
 	while(T--)
@@ -64,15 +63,11 @@ int main() {
 	    map<pair<int,int>,int> hash;
 	    int count=0;
 	    hash[{0,0}]=1;
-	   // unordered_map<int,int> hash2;
-	    
-	    //hash1[p0[0]-p1[0]]=1;
-	    //hash2[p1[0]-p2[0]]=1;
+	  
 	    for(int i=0;i<s.size();i++)
 	    {
 	        if(hash[{p0[i]-p1[i],p1[i]-p2[i]}])
 	        {
-	            //hash[p0[i]-p1[i]]++;
 	            count+=hash[{p0[i]-p1[i],p1[i]-p2[i]}];
 	        }
 	        hash[{p0[i]-p1[i],p1[i]-p2[i]}]++;
