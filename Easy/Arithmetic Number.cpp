@@ -1,5 +1,24 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution{
 public:
+
+    int abs(int data)
+    {
+        if(data<0)
+        {
+            return -data;
+        }
+        else
+        {
+            {
+                return data;
+            }
+        }
+        
+    }
     int inSequence(int A, int B, int C){
         if(A==B)
         {
