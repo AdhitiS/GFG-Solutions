@@ -1,3 +1,8 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+
 int maxLen(int arr[], int N)
 {
     vector<int> zeroes(N,0);
