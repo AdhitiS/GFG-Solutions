@@ -42,5 +42,6 @@ vector <int> bfs(vector<int> g[], int N) {
             }
         }
     }
+    //bfs
     return ans;
 }
