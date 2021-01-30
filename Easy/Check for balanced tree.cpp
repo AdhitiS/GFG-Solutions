@@ -17,7 +17,7 @@ Node* newNode(int val)
     
     return temp;
 }
-// Function to Build Tree
+
 Node* buildTree(string str)
 {   
     // Corner Case
