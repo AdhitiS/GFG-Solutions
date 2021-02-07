@@ -16,6 +16,7 @@ int main() {
 	cin>>T;
 	while(T--)
 	{
+		//Enter
 	    int n1,n2;
 	    cin>>n1>>n2;
 	    vector<int> v1(n1,0);
