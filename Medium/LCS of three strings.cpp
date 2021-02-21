@@ -12,7 +12,7 @@ int main() {
 	    string s1,s2,s3;
 	    cin>>n1>>n2>>n3;
 	    cin>>s1>>s2>>s3;
-	    
+	    // Start
 	    vector<vector<vector<int>>> dp(n1+1,vector<vector<int>>(n2+1,vector<int>(n3+1,0)));
 	    for(int i=n1-1;i>=0;i--)
 	    {
