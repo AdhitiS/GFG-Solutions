@@ -51,45 +51,8 @@ public:
             }
         }
         return dp[N][sum];
-        
-        
-        
-        
-        
-        
-        
-        // if(sum%2!=0)
-        // {
-        //     return 0;
-        // }
-        // sort(arr,arr+N);
-        // int i=0,j=0;
-        // while(i<N||j<N)
-        // {
-        //     if((ans+arr[j])==sum/2)
-        //     {
-        //         cout<<ans+arr[j]<<" ";
-        //         return 1;
-        //     }
-        //     else if((ans+arr[j])<sum/2)
-        //     {
-        //         ans+=arr[j];
-        //         cout<<ans<<" ";
-        //         j++;
-        //     }
-        //     else
-        //     {
-        //         ans-=arr[i];
-        //         cout<<ans<<" ";
-        //         i++;
-        //     }
-        // }
-        // return 0;
-        
     }
 };
-
-// { Driver Code Starts.
 
 int main(){
     int t;
@@ -108,4 +71,4 @@ int main(){
             cout<<"NO\n";
     }
     return 0;
-}  // } Driver Code Ends
+} 
