@@ -5,7 +5,7 @@ class Solution{
 public:
     int equalPartition(int N, int arr[])
     {
-       
+       //Code
         int sum=0;
         for(int i=0;i<N;i++)
         {
