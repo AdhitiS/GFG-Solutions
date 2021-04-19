@@ -7,6 +7,7 @@ int main() {
 	int t; cin>>t;
 	while(t--)
 	{
+		//code
 	    int K;
 	    int j,i; cin>>K>>i>>j;
 	    if(i<j)
