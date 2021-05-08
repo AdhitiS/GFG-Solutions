@@ -4,6 +4,7 @@ using namespace std;
 class Solution
 {
   public:
+  //code
     int mod=pow(10,9)+7;
 
     int countWays(int arr[], int m, int N) 
