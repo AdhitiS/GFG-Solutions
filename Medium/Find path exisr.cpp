@@ -52,7 +52,6 @@ int main() {
 	cin>>T;
 	while(T--)
 	{
-        //code
 	    int n;
 	    cin>>n;
 	    int** arr=new int*[n];
