@@ -7,7 +7,7 @@ int main() {
 	cin>>T;
 	while(T--)
 	{
-		//Code
+	
 	    int n;
 	    cin>>n;
 	    vector<int> v(n,0);
